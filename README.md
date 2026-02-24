@@ -4,6 +4,10 @@
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![xUnit](https://img.shields.io/badge/xUnit-Testing-success?style=for-the-badge)
 
+<div align="center">
+  <img src="./Diagrams/WhatsApp%20Image%202026-02-23%20at%209.08.41%20PM.jpeg" alt="E-commerce Pricing Concept" width="300"/>
+</div>
+
 Este repositorio contiene la demostración arquitectónica de un **Motor de Cálculo de Descuentos** para un E-commerce. El objetivo principal es evidenciar la refactorización de un sistema monolítico y altamente acoplado (*Legacy*) hacia una arquitectura limpia y escalable utilizando el **Principio Abierto/Cerrado (OCP)** y **Polimorfismo**.
 
 ---
@@ -36,12 +40,11 @@ La solución está dividida estratégicamente en 4 capas para garantizar la Sepa
 ### Diagrama de Clases (UML)
 El siguiente diagrama ilustra cómo el patrón Strategy desacopla las reglas de negocio del cálculo central. El orquestador (`OcpDiscountCalculator`) solo depende de la abstracción (`IDiscountStrategy`), permitiendo inyectar dependencias en tiempo de ejecución.
 
-> *Nota: Asegúrate de subir el archivo de imagen al repositorio para que se visualice correctamente.*
-![UML Diagram](./UML%20Class%20Diagram_%20Discount%20System%20Strategy%20Pattern.png)
+![UML Diagram](./Diagrams/UML%20Class%20Diagram_%20Discount%20System%20Strategy%20Pattern.png)
 
 ### Arquitectura C4 (Contexto y Contenedores)
 El diseño del sistema permite que el equipo de Marketing genere nuevas reglas de negocio de forma aislada sin afectar el flujo de compra del Cliente final. 
-*Puedes revisar el modelo interactivo descargando el archivo `C4Arquitectura.html` incluido en este repositorio.*
+*Puedes revisar el modelo interactivo descargando el archivo `C4Arquitectura.html` incluido en este repositorio (idealmente ubicado en la carpeta `Diagrams`).*
 
 ---
 
