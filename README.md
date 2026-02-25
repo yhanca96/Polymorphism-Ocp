@@ -40,7 +40,7 @@ La solución está dividida estratégicamente en 4 capas para garantizar la Sepa
 ### Diagrama de Clases (UML)
 El siguiente diagrama ilustra cómo el patrón Strategy desacopla las reglas de negocio del cálculo central. El orquestador (`OcpDiscountCalculator`) solo depende de la abstracción (`IDiscountStrategy`), permitiendo inyectar dependencias en tiempo de ejecución.
 
-![UML Diagram](./Diagrams/UML%20Class%20Diagram_%20Discount%20System%20Strategy%20Pattern.png)
+(./Diagrams/UML%20Class%20Diagram_%20Discount%20System%20Strategy%20Pattern.png)
 
 ### Arquitectura C4 (Contexto y Contenedores)
 El diseño del sistema permite que el equipo de Marketing genere nuevas reglas de negocio de forma aislada sin afectar el flujo de compra del Cliente final. 
