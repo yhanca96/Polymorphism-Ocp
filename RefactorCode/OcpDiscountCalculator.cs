@@ -10,7 +10,8 @@ namespace RefactorCode
 {
     public class OcpDiscountCalculator
     {
-       
+
+              
         private readonly IEnumerable<IDiscountStrategy> _strategies;
 
         public OcpDiscountCalculator(IEnumerable<IDiscountStrategy> strategies)
