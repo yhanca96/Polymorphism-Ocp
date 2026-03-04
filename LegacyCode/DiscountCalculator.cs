@@ -21,7 +21,8 @@ namespace LegacyCode
             {
                 discount = order.TotalAmount * 0.20m;
             }
-           
+            
+
             else if (order.Customer != null)
             {
                 // Condicional 2: Reglas de Dominio por tipo de cliente
